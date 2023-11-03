@@ -1,0 +1,12 @@
+@import url(https://use.fontawesome.com/releases/v6.4.0/css/all.css);
+@import '@fontsource/ubuntu';
+@import '@fontsource-variable/jetbrains-mono';
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.svoast-container[data-position*="-right"][class*="svelte-"] {
+    top: auto !important;
+    bottom: 2em !important;
+}
